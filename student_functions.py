@@ -295,4 +295,4 @@ def Beam(matrix, start, end):
                     pQueue.put((cost + weight, path + [adjacentNode])) 
                     visited[adjacentNode] = endNode  
                     
-    return visited, "Không tồn tại đường đi"
+    return visited, []  # "Không tồn tại đường đi"

@@ -10,7 +10,7 @@ class PathBuilder:
                 end = visited[end]
             path.reverse()
         else:
-            return "Không tồn tại đường đi"
+            return []  # "Không tồn tại đường đi"
         
         return path
     
